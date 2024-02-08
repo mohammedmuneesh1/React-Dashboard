@@ -9,6 +9,7 @@ import { Sidebar } from './components/Sidebar';
 function App() {
   return (
     <>
+    
     <Sidebar>
     <Routes>
       <Route path="/" element={<Dashboard/> }/>
